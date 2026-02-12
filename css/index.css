@@ -77,6 +77,9 @@ img {
   display: flex;
   align-items: center;
 }
+h4{
+  color: #02001E;
+}
 h5,h4{
   text-align: center;
   font-weight: bold;
