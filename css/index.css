@@ -1,0 +1,89 @@
+body {
+  background: linear-gradient(black, purple);
+  font-family: sans-serif, arial;
+  color: white;
+}
+h1 {
+  color: aqua;
+  font-size: 36;
+  font-weight: bold;
+}
+h3{
+    font-size: 24px;
+    font-weight: bold;
+}
+img {
+  width: 100%;
+  height: 180px;
+  border-radius: 4%;
+  margin-bottom: 16px;
+}
+.card {
+  transition: 1s;
+  border: 4px white solid;
+  text-decoration: none;
+
+}
+.card:hover {
+  transform: scale(1.025);
+}
+.foto {
+  border-radius: 100%;
+  border: gold solid;
+  height: 380px;
+  width: 400px;
+}
+.foto-perfil {
+  display: flex;
+  justify-content: center;
+  color: gold;
+  font-weight: bold;
+}
+
+.p-5 {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+}
+.RebuilWare {
+  background: linear-gradient(#02001E, #161432);
+  color: whitesmoke;
+  text-align: justify;
+}
+
+.MapCun {
+  background: linear-gradient(indigo, black);
+  color: aliceblue;
+    text-align: justify;
+
+}
+
+.Farmacia {
+  background: linear-gradient(aqua, white);
+    text-align: justify;
+
+}
+.Pisos {
+  width: 60%;
+  color: aliceblue;
+  background: linear-gradient(#6F4E37,#f5a623);
+  text-align: justify;
+}
+
+.Pisos:hover{
+   transform: scale(1.005);
+}
+.p{
+  display: flex;
+  align-items: center;
+}
+h5,h4{
+  text-align: center;
+  font-weight: bold;
+}
+@media (max-width: 767.98px) {
+  .Pisos{
+    margin: 4px;
+    width: 100%;
+  }
+}
