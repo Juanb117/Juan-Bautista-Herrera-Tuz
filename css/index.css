@@ -86,6 +86,9 @@ h5,h4{
 .github{
   color: white;
 }
+.github-p{
+  color: #02001E;
+}
 @media (max-width: 767.98px) {
   .Pisos{
     margin: 4px;
