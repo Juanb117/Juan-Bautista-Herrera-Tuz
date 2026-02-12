@@ -69,9 +69,7 @@ img {
   background: linear-gradient(#6F4E37,#f5a623);
   text-align: justify;
 }
-h4{
-  color: #02001E;
-}
+
 .Pisos:hover{
    transform: scale(1.005);
 }
@@ -86,7 +84,7 @@ h5,h4{
 .github{
   color: white;
 }
-.github-p{
+.github-f{
   color: #02001E;
 }
 @media (max-width: 767.98px) {
