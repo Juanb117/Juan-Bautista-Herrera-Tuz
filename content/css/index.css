@@ -8,9 +8,9 @@ h1 {
   font-size: 36;
   font-weight: bold;
 }
-h3{
-    font-size: 24px;
-    font-weight: bold;
+h3 {
+  font-size: 24px;
+  font-weight: bold;
 }
 img {
   width: 100%;
@@ -22,7 +22,6 @@ img {
   transition: 1s;
   border: 4px white solid;
   text-decoration: none;
-
 }
 .card:hover {
   transform: scale(1.025);
@@ -30,8 +29,8 @@ img {
 .foto {
   border-radius: 100%;
   border: gold solid;
-  height: 380px;
-  width: 400px;
+  height: 280px;
+  width: 300px;
 }
 .foto-perfil {
   display: flex;
@@ -46,7 +45,7 @@ img {
   font-size: 24px;
 }
 .RebuilWare {
-  background: linear-gradient(#02001E, #161432);
+  background: linear-gradient(#02001e, #161432);
   color: whitesmoke;
   text-align: justify;
 }
@@ -54,42 +53,50 @@ img {
 .MapCun {
   background: linear-gradient(indigo, black);
   color: aliceblue;
-    text-align: justify;
-
+  text-align: justify;
 }
 
 .Farmacia {
   background: linear-gradient(aqua, white);
-    text-align: justify;
-
-}
-.Pisos {
-  width: 60%;
-  color: aliceblue;
-  background: linear-gradient(#6F4E37,#f5a623);
+  color: #02001e;
   text-align: justify;
 }
-
-.Pisos:hover{
-   transform: scale(1.005);
+.Pisos {
+  color: aliceblue;
+  background: linear-gradient(#6f4e37, #f5a623);
+  text-align: justify;
 }
-.p{
+.Neutral {
+  color: #02001e;
+  background-color: black;
+}
+.p {
   display: flex;
   align-items: center;
 }
-h5,h4{
+h5,
+h4 {
   text-align: center;
   font-weight: bold;
 }
-.github{
+
+.github {
   color: white;
 }
-.github-f{
-  color: #02001E;
+.github.black {
+  color: #000;
 }
-@media (max-width: 767.98px) {
-  .Pisos{
-    margin: 4px;
-    width: 100%;
-  }
+.modal {
+  width: 100%;
+}
+
+.carousel-img {
+  height: 340px; 
+  object-fit: contain;
+  width: 100%;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0,0,0,0.5); /* fondo semitransparente */
+  border-radius: 50%;
 }
