@@ -22,7 +22,7 @@ document.querySelectorAll(".Mas-informacion").forEach((btn) => {
     modal.classList.add(estilo);
 
     document.getElementById("modalTitle").textContent = modalTitle;
-    document.getElementById("modalProyecto").textContent = modalProyecto;
+    document.getElementById("modalProyecto").innerHTML = modalProyecto.replace(/\\n/g, "<br>");
     document.getElementById("modalMateria").textContent = modalMateria;
     document.getElementById("modalAprendizaje").textContent = modalAprendizaje;
     document.getElementById("modalFront").textContent = modalFront;
