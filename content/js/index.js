@@ -5,11 +5,13 @@ document.querySelectorAll(".Mas-informacion").forEach((btn) => {
   btn.addEventListener("click", function () {
     const modalTitle = this.getAttribute("data-title");
     const modalProyecto = this.getAttribute("data-proyecto");
-    const modalLogo = this.getAttribute("data-logo");
     const modalImgs = this.getAttribute("data-img");
     const modalMateria = this.getAttribute("data-materia");
     const modalAprendizaje = this.getAttribute("data-aprendizaje");
-    const modalTecnologias = this.getAttribute("data-tecnologias");
+    const modalFront = this.getAttribute("data-front");
+    const modalBack = this.getAttribute("data-back");
+    const modalDB = this.getAttribute("data-db");
+    const modalCV = this.getAttribute("data-cv");
     const modalParticipacion = this.getAttribute("data-partipacion");
     const modalRepositorio = this.getAttribute("data-repo");
     const estilo = this.getAttribute("data-estilos");
@@ -21,11 +23,19 @@ document.querySelectorAll(".Mas-informacion").forEach((btn) => {
 
     document.getElementById("modalTitle").textContent = modalTitle;
     document.getElementById("modalProyecto").textContent = modalProyecto;
-    document.getElementById("modalLogo").textContent = modalLogo;
     document.getElementById("modalMateria").textContent = modalMateria;
     document.getElementById("modalAprendizaje").textContent = modalAprendizaje;
-    document.getElementById("modalTecnologias").textContent = modalTecnologias;
+    document.getElementById("modalFront").textContent = modalFront;
+    document.getElementById("modalBack").textContent = modalBack;
+    document.getElementById("modalDB").textContent = modalDB;
+    document.getElementById("modalCV").textContent = modalCV;
     document.getElementById("modalParticipacion").textContent = modalParticipacion;
+
+    const cv = document.getElementById("titlecv");
+    cv.style.display = "list-item";
+    if(modalCV === " "){
+      cv.style.display = "none";
+    }
     const indicators = document.querySelector(
       "#carouselModal .carousel-indicators",
     );
@@ -66,10 +76,10 @@ document.querySelectorAll(".Mas-informacion").forEach((btn) => {
     }
 
     const TitleTecnologias = document.getElementById("TitleTecnologias");
-    const TextTecnologias = document.getElementById("modalTecnologias");
     if(modalTitle === "RebuilWare"){
         TitleTecnologias.style.display = "none";
-        TextTecnologias.style.display = "none";
+        return;
     }
+    TitleTecnologias.style.display = "block";
   });
 });

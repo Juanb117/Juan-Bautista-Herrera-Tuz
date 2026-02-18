@@ -1,5 +1,6 @@
 body {
-  background: linear-gradient(black, purple);
+background: #000;
+background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 7, 87, 1) 50%, rgba(64, 0, 92, 1) 100%);
   font-family: sans-serif, arial;
   color: white;
 }
@@ -42,7 +43,7 @@ img {
 .p-5 {
   display: flex;
   align-items: center;
-  font-size: 24px;
+  font-size: 20px;
 }
 .RebuilWare {
   background: linear-gradient(#02001e, #161432);
