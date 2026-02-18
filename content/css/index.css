@@ -9,11 +9,6 @@ body {
   font-family: sans-serif, arial;
   color: white;
 }
-h1 {
-  color: aqua;
-  font-size: 36;
-  font-weight: bold;
-}
 h3 {
   font-size: 24px;
   font-weight: bold;
@@ -41,7 +36,6 @@ img {
 .foto-perfil {
   display: flex;
   justify-content: center;
-  color: gold;
   font-weight: bold;
 }
 .p-5 {
@@ -69,7 +63,7 @@ img {
 }
 .Pisos {
   color: aliceblue;
-  background: linear-gradient(#6f4e37, #f5a623);
+  background: linear-gradient(#1E1E1E, #f5a623);
   text-align: justify;
 }
 .Neutral {
